@@ -1,0 +1,10 @@
+prefix=/home/wrpark/silcroad/rr/tools
+libdir=/home/wrpark/silcroad/rr/tools/lib
+includedir=/home/wrpark/silcroad/rr/tools/include
+
+Name: librdkafka++-static
+Description: The Apache Kafka C/C++ library (static)
+Version: 2.0.2
+Requires: rdkafka-static
+Cflags: -I${includedir}
+Libs: -L${libdir} ${pc_sysrootdir}${libdir}/librdkafka++.a -lm -ldl -lpthread -lrt

@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 9.5.2
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/home/wrpark/silcroad/rr/tools/include
+Libs: -L/home/wrpark/silcroad/rr/tools/lib -lecpg
+Libs.private:  -lm -lpthread

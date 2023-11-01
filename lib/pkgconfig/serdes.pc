@@ -1,0 +1,11 @@
+prefix=/home/wrpark/silcroad/rr/tools
+libdir=/home/wrpark/silcroad/rr/tools/lib
+includedir=/home/wrpark/silcroad/rr/tools/include
+
+Name: libserdes
+Description: Confluent Schema-Registry C/C++ client library with Avro serialization
+Version: 
+Requires.private: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lserdes
+Libs.private: -lrt -lpthread -lcurl -ljansson -lrdkafka++ -lavro

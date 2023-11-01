@@ -1,0 +1,7 @@
+Name: avro-c
+Description: C library for parsing Avro data
+Version: 1.11.1
+URL: https://avro.apache.org/
+Libs: -L/home/wrpark/silcroad/rr/tools/lib -lavro
+Cflags: -I/home/wrpark/silcroad/rr/tools/include
+Requires: @ZLIB_PKG@ @LZMA_PKG@ @SNAPPY_PKG@

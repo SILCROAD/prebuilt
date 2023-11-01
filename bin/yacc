@@ -1,0 +1,2 @@
+#! /bin/sh
+exec '/home/wrpark/silcroad/rr/tools/bin/bison' -y "$@"
